@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Mono&display=swap');
+
+@media screen and  (max-wigth:700px) {}
+    
+body{
+    width: 100%;
+    
+}
+
+.conteiner{
+    display: grid;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.head{
+    display: grid;
+    grid-template-rows: 100px;
+    justify-items: start;
+ 
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+}
+.head_logo{
+    display: flex;
+}
+.menu{
+
+    
+}
+.menu_list{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    star
+    justify-content: flex-start;
+    flex-direction: row;
+    col
+    umn-gap: 80px;
+}

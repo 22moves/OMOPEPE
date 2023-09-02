@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Mono&display=swap');
+
+@media screen and  (max-wigth:700px) {
+    
+}
+:root{
+    --conteiner-width: 1920px;
+    --conteiner-padding: 10px;
+}
+body{ 
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    padding: var(--conteiner-padding)
+    
+   
+}
+
+.nav{
+width: 100%;
+display: flex;
+justify-content: space-between;
+column-gap: 80px;
+align-items: center;
+position:fixed;
+top: 0;
+backdrop-filter: blur(10px);
+
+}
+.bold_f{
+    font-weight: bold;
+}
+
+.nav_wall{
+    display: flex;
+    list-style: none;
+    column-gap: 25px;
+    padding-right: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: flex-end;  
+    flex-direction: row;
+    
+}
+
+.nav_logo{
+    width: 90px;
+}
+
+
+
+.nav_list{
+    display: flex;
+    column-gap: 80px;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+
+.grid_top_text{
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 20px;
+    
+
+
+}
+.col{
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: white;
+   
+}
+
+.col_a{
+    width: 30%;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 20px;
+   
+}
+
+
+.grid_main_a{
+    padding: 20px;
+    display: grid;
+    grid-column: 3;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 20px;
+    justify-items: center;
+    padding: 40px
+}
+
+.grid_main_g{
+    padding: 20px;
+    background: radial-gradient(30.56% 53.09% at 27.81% 51.77%, rgba(143, 255, 0, 0.10) 52.47%, rgba(187, 239, 122, 0.00) 100%);
+    display: grid;
+    grid-column: 3;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 20px;
+    justify-items: center;
+    padding: 40px
+}
+.grid_main_w{
+    padding: 20px;
+    background-color: white;
+    display: grid;
+    grid-column: 3;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 20px;
+    justify-items: center;
+    padding: 40px;
+    margin-bottom: 10px;
+
+    
+}
+
+.grid_main_f{
+    padding: 20px;
+   background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, #A0FF56 100%);
+    display: grid;
+    grid-column: 3;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 20px;
+    justify-items: center;
+    padding: 40px;
+    margin-bottom: 10px;}
+
+.label_list{
+    width: 100%;
+    list-style: none;
+    display: grid;
+    column-gap: 40px;
+    justify-content: space-around;
+    text-align: center;
+    
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.grid_top{
+    width: 100%;
+    min-width: 200px;   
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 10px;
+    
+}
+
+.grid_head{
+    align-items: center;
+    align-content: center;
+    display:grid;
+    column-gap: 0px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    font-size: 70px;
+    padding: 40px
+}
+.img_header{
+    width: 100%;
+    min-width: 400px;
+}
+
+
+.header a{
+    color: black;
+    text-decoration: none;
+   
+}
+.conteiner{
+    max-width: var(--conteiner-width);
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+.block{
+    height: 200px;
+    background-color: antiquewhite;
+}
+.header{
+ 
+    min-height: 1000px;
+    width: 100%;
+    padding-top: 100px;
+    background: linear-gradient(180deg, #B9FF62 0%, #FFF 69.3%);
+}
+.footer_img{
+height: 100%;
+
+}
+
+footer{
+
+height: 100px;   
+display: flex;
+flex-direction: row;
+justify-content: center;
+column-gap: 80px;
+}
+
+
+
+
+.btn{
+    display:inline-block;
+    width: fit-content;
+    border-radius: 30px;
+    border: 6px solid #000;
+    background: #BBEF7A;
+    padding: 13px 44px;
+    font-size: 15px;
+    font-weight: 900;
+  
+}
+
+.btn:hover{
+    color: white;
+}
+
+.btn:active{
+    background-color: white;
+    color: #000;
+}
+.h2{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.roadmap{
+display: grid;
+
+    
+}

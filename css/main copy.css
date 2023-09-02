@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Mono&display=swap');
+body{  
+    display: flex;
+    font-family: 'Raleway', sans-serif; ;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, #4E8622 100%);
+}
+
+block {
+    background-color: blueviolet;
+}
+
+.header__image{
+    width: 550px
+}
+
+.logo{
+width: 70px;
+margin: 10px;
+}
+
+a {
+    color: rgb(0, 17, 8);
+    text-decoration: none;
+
+}
+a:hover{
+    color: white;
+}
+a:active {
+    background-color: rgb(88, 159, 120);
+    border-color: aliceblue;
+}
+.nav{
+    justify-content: space-between;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    list-style: none;
+    column-gap: 0px;
+    align-items: center;
+    
+    
+}
+
+
+.section{
+    display:flex;
+    font-size: 50px;
+    gap: 20px;
+    box-shadow: #000;
+    align-items: center;
+    margin-top: 10  0px;
+    margin-bottom: 150px;
+    
+}
+
+svg{
+    width: 100%;
+}
+.conteiner{
+    text-align:justify;  
+    max-width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace; 
+    margin-bottom: 150px;
+    
+       
+}
+
+.head{
+    display: flex;  /* Use flexbox to arrange items */
+    margin-top: 10px;
+    align-items: center;
+
+    width: 100%; 
+    max-width: 900px;
+    
+}
+
+.tokenomics{
+    list-style: none;
+}
+
+.cont__image{
+    width: 200px;
+}
+.margin{
+    margin-top: 800px;
+}
+
+.btn_1{
+    display:inline-block ;
+    padding: 13px 44px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: 6px solid #000;
+    background: #BBEF7A;
+    border-radius: 30px;
+    font-weight:bolder
+    
+}
+
+.green__img{
+        
+    background-color: green;
+    opacity: 0.5;
+    width: 100px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 10px;
+    font-size: 14px;
+    max-width: 200px;
+    height: 250px;
+    margin: 0 auto;
+
+}
+
+.pic_card{
+    padding: 10px 10px;
+    font-size: 14px;
+    max-width: 200px;
+    border-radius: 30px;
+    margin: 0 auto;
+
+    
+}
+
+
+.cc_list{
+    justify-content: space-between;
+    display: flex;
+    border-color: #ff0000;
+    border-radius: 3px;
+    align-items: center;
+    width: 100%;
+  
+
+}
+
+.h2 {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-weight: 900;
+}
+.h1{
+font-weight: 2000r;
+font-size: 50px;
+margin: 100px;
+
+}
+
+.icon_cc{
+    width: 100px;
+}
